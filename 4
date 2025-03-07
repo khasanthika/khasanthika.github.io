@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dr. [Your Name] - Postdoctoral Candidate</title>
+  <style>
+    /* Global Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Helvetica', sans-serif;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    /* Header */
+    header {
+      background: #cce0ff;
+      color: #003366;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    /* Updated header links: open in new window, link to a GitHub repo */
+    nav ul li a {
+      color: #003366;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      color: #ffcc00;
+    }
+    /* Hero Section */
+    .hero {
+      display: flex;
+      align-items: center;
+      padding: 50px 20px;
+      background: #e6f7ff;
+      margin-bottom: 30px;
+    }
+    .hero .hero-image {
+      flex: 0 0 250px;
+      margin-right: 20px;
+    }
+    .hero .hero-image img {
+      width: 100%;
+      border-radius: 50%;
+    }
+    .hero .hero-text {
+      flex: 1;
+      text-align: center;
+    }
+    .hero .hero-text h1 {
+      font-size: 2em;
+      margin-bottom: 15px;
+      color: #003366;
+    }
+    .hero .hero-text p {
+      font-size: 1.1em;
+      margin-bottom: 15px;
+    }
+    .hero .hero-text .cv-btn {
+      display: inline-block;
+      background: #003366;
+      color: #fff;
+      padding: 10px 25px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 1em;
+      margin-top: 20px;
+    }
+    .hero .hero-text .cv-btn:hover {
+      background: #00224d;
+    }
+    /* Section Layout (No White Boxes) */
+    .section {
+      display: flex;
+      align-items: flex-start;
+      padding: 30px 0;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 20px;
+      gap: 20px; /* Space between header and content */
+    }
+    /* Section Title */
+    .section h2 {
+      flex: 0 0 30%;
+      text-align: left;
+      font-size: 2em;
+      color: #003366;
+      padding-right: 20px;
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+    }
+    /* Section Content */
+    .section .content {
+      flex: 1;
+      text-align: left;
+    }
+    .section .content > * {
+      margin-bottom: 15px;
+    }
+    /* Contact Section Form */
+    .contact form {
+      max-width: 600px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .contact form input,
+    .contact form textarea {
+      padding: 10px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+    }
+    .contact form button {
+      padding: 10px;
+      background: #003366; /* Original dark blue */
+      color: #fff;
+      border: none;
+      font-size: 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .contact form button:hover {
+      background: #00224d;
+    }
+    /* Footer */
+    footer {
+      background: #cce0ff; /* Light blue to match the top tabs */
+      color: #003366;
+      text-align: center;
+      padding: 15px 20px;
+      margin-top: 40px;
+    }
+    footer p {
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="https://github.com/yourusername/another-repo" target="_blank">Home</a></li>
+        <li><a href="https://github.com/yourusername/another-repo" target="_blank">Research & Publications</a></li>
+        <li><a href="https://github.com/yourusername/another-repo" target="_blank">Projects</a></li>
+        <li><a href="https://github.com/yourusername/another-repo" target="_blank">Blog</a></li>
+        <li><a href="https://github.com/yourusername/another-repo" target="_blank">About</a></li>
+        <li><a href="https://github.com/yourusername/another-repo" target="_blank">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-image">
+      <img src="your-image.jpg" alt="Dr. [Your Name]">
+    </div>
+    <div class="hero-text">
+      <h1>Dr. [Your Name]</h1>
+      <p>Postdoctoral Candidate in [Your Field]</p>
+      <p>Advancing research in [Area of Specialization]</p>
+      <a href="your_cv.pdf" class="cv-btn" target="_blank">Download CV</a>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section class="section" id="research">
+    <h2>Research & Publications</h2>
+    <div class="content">
+      <div>
+        <h3>Research Project 1</h3>
+        <p>A brief summary of your research project including methodology and key outcomes.</p>
+      </div>
+      <div>
+        <h3>Publication 1</h3>
+        <p>Published in [Journal Name], [Year]. Summary of the work.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <div class="content">
+      <div>
+        <h3>Project Title 1</h3>
+        <p>A description of a key project you have worked on.</p>
+      </div>
+      <div>
+        <h3>Project Title 2</h3>
+        <p>Details about another important project.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="section" id="blog">
+    <h2>Blog</h2>
+    <div class="content">
+      <div>
+        <h3>Blog Post 1</h3>
+        <p>A brief description or snippet from your blog post.</p>
+      </div>
+      <div>
+        <h3>Blog Post 2</h3>
+        <p>Summary of another blog post you have written.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <div class="content">
+      <p>Brief introduction about your background, education, and research focus. This section provides a snapshot of your professional journey.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <h2>Contact Me</h2>
+    <div class="content">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dr. [Your Name]. All rights reserved.</p>
+  </footer>
+</body>
+</html>
