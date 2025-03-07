@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dr. [Your Name] - Postdoctoral Candidate</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      background: #ffffff;
+      color: #333;
+      padding: 20px;
+    }
+    header {
+      background: #003366;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .hero {
+      background: #e6f2ff;
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 2px solid #ccc;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #003366;
+    }
+    .hero p {
+      font-size: 1.2em;
+      color: #333;
+    }
+    .cv-link {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #003366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 3px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 40px auto;
+    }
+    h2 {
+      border-bottom: 2px solid #003366;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      color: #003366;
+    }
+    .research, .publications, .about, .contact {
+      margin-bottom: 40px;
+    }
+    .research-item, .publication-item {
+      margin-bottom: 20px;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact form input, .contact form textarea {
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      font-size: 16px;
+    }
+    .contact form button {
+      padding: 10px;
+      background: #003366;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 3px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #003366;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <h1>Dr. [Your Name]</h1>
+    <p>Postdoctoral Candidate in [Your Field]</p>
+    <p>Advancing research in [Area of Specialization]</p>
+    <a class="cv-link" href="your_cv.pdf" target="_blank">Download CV</a>
+  </section>
+
+  <section class="section research" id="research">
+    <h2>Research Contributions</h2>
+    <div class="research-item">
+      <h3>Research Project Title 1</h3>
+      <p>A brief summary of your research project including methodology and key outcomes. Highlight how this work advances your field.</p>
+    </div>
+    <div class="research-item">
+      <h3>Research Project Title 2</h3>
+      <p>A concise description of another research initiative, outlining your contributions and significant findings.</p>
+    </div>
+    <!-- Add additional research items as needed -->
+  </section>
+
+  <section class="section publications" id="publications">
+    <h2>Publications &amp; Presentations</h2>
+    <div class="publication-item">
+      <h3>Publication Title 1</h3>
+      <p>Published in <em>Journal Name</em> (Year) – A summary of the work and its impact in the field.</p>
+    </div>
+    <div class="publication-item">
+      <h3>Publication Title 2</h3>
+      <p>Presented at <em>Conference Name</em> (Year) – A brief overview of the topic and contributions.</p>
+    </div>
+    <!-- Add additional publication items as needed -->
+  </section>
+
+  <section class="section about" id="about">
+    <h2>About Me</h2>
+    <p>I earned my PhD in [Your Field] from [Your University] and have focused my research on [Your Research Focus]. With a strong background in [Key Skills/Methodologies], I have a proven track record in research and teaching. My work aims to bridge the gap between theory and practical application in [Your Field].</p>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dr. [Your Name]. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Simple contact form handler
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your message! I will get back to you shortly.');
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
